@@ -37,10 +37,12 @@ public class TallerRecursividad {
                 System.out.println("----- Secuencia de Tribonacci -----");
                 
                 int Num;
+                int Con = 1;
                 System.out.println("Ingrese un Número: ");
                 Num = Teclado.nextInt();
 
-                System.out.println("El Resultado es: " + Prueba.Trinobachi(Num));
+                System.out.println("El Resultado es: ");
+                System.out.println(Prueba.Mensaje(Num, Con));
                 break;
             }
             case 2:
