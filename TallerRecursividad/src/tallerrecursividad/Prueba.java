@@ -26,6 +26,17 @@ public class Prueba {
         }
     }
     
+    public static String Mensaje(int n, int i)
+    {
+        if (i<=n)
+        {
+          System.out.print(Trinobachi(i) + " ");  
+          return Mensaje(n, (i+1));             
+        } 
+        else
+            return "";
+    }
+    
     public static boolean Buscar(int[] a, int b, int c)
     {  
         if(a[c] == b)
